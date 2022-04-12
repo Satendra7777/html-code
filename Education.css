@@ -1,0 +1,220 @@
+
+       .coursera { 
+            width: 120px;
+            margin: 20px;
+            color: blue;
+            font-size: 510%;
+            font-weight: bolder;
+            height: auto;
+        }
+        .img{
+            position: relative;
+            top: -125px;
+        }       
+        .search 
+        {
+            height: 10mm;
+            top: -60%;
+            left: 100%;
+            min-width: -6px;
+            position: relative;
+            display: flex;
+        }  
+        .search-box 
+        {
+            position: absolute;
+            top: 10%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            height: 40px;
+            border-radius: 40px;
+            padding: 10px;
+        }     
+        label.EE
+         {
+            height: ;
+            background-color: blue;
+            border: 10px;
+            padding: 10px;
+            color: aliceblue;
+        }       
+        nav a
+         {
+            text-decoration: none;
+            color: white;
+            text-align: left;
+            padding: 19px;
+            float: left;
+            /* margin-left: 10px; */          
+        }     
+        nav {
+            text-decoration: none;
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+            /* margin-left: 10px; */
+        }
+        
+        nav a:hover {
+            color: tomato;
+            /* margin-left: 12px; */
+        }
+        
+        nav a:visited {
+            color: rgb(0, 30, 255);
+            /* margin-left: 20px; */
+        }
+        
+        .pp {
+            color: blue;
+            background-color: rgba(104, 136, 196, 0.199);
+            margin-left: 0px;
+            padding: 50px;
+            height: 490px;
+            margin-top: auto;
+            font-weight: bold;
+            font-size: 60px;
+            
+        }
+        .cancel{
+            font-size: medium;
+            color: black;
+        }
+        
+        .plus {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 50px;
+        }
+        .plus input[type="text"]
+        {
+            color: aliceblue;
+            background-color: #1101f7;
+            font-family:sans-serif;
+            width: 60px;
+            height: 30px;
+            border: none;
+            border-radius: 4px;
+            font-size: 30px;
+        
+        }
+    
+        input[type=text]
+        {
+            padding: 10px 60px;
+            background-color: rgba(54, 51, 51, 0.253);
+        }
+        input[type=submit]
+        {
+            background-color: #2a73cc;
+            padding: 20px 30px;
+            color: aliceblue;
+            width: 500px;
+            height: 70px;
+            font-size: 29px;
+            border: none;
+            border-radius: 4px;
+        }
+        input[type=submit]:hover
+        {
+            background-color: rgb(77, 82, 155);
+        }
+        
+        
+        table,
+        tr,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .LL {
+            font-size: 25px;
+        }
+        
+        .Invest {
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .Border
+        {
+            background-color: #2a73cc2a;
+            box-sizing: border-box;
+            border-radius: 10px;
+            margin: 50px;
+            padding: 10px;
+        }
+        
+        
+        
+        .dabba {
+            background-color: #f4eddf;
+            /* margin-left: 50px; */
+            padding: 50px;
+            height: 430px;
+            /* margin-top: auto; */
+            margin: 50px;
+            font-weight: bold;
+            font-size: 40px;
+            border-radius:10px;
+        }
+        .year, a:link{
+            text-decoration: none;
+            font-size: medium;
+            
+        }
+        .year, a:hover{
+            text-decoration: underline;
+            
+        }
+        .year, a:visited{
+            text-decoration: blueviolet;
+            
+        }
+        .unlimited
+        {
+            font-size: 30px;
+        }
+        
+        .Search {
+            font-weight: bold;
+            font-size: 40px;
+        }
+        
+        .Join {
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .courses
+        {
+            font-size: 20px;
+            text-align: center;
+            color: rgb(1, 66, 151);
+            padding: 60px;
+        }
+       .courses:hover{
+            color: rgba(14, 130, 62, 0.704)
+        }
+      .review
+      {
+          padding: 5px;  
+          text-align: center;
+          background-color: rgba(0, 0, 0, 0.108);
+          border-radius: 10px;
+          margin: 10px;
+       }
+
+       .gail
+       {
+           border-radius: 50%;
+       }
+    .uvw
+    {
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+    }
+       
+    .pqr
+    {
+        border-radius: 10px;
+    }
+       
