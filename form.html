@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body class="container">
+    <h1 class="main_heading">Payment form</h1>
+    <hr>
+    <h3>User information</h3>
+    <form>
+        <label for="fname"> First name:</label>
+        <input type="text" id="fname" placeholder="Johns" required> <br> <br>
+        <label for="lname"> Last Name :</label>
+        <input type="text" id="lname" placeholder="Tiwari" required> <br><br>
+        <label for=""></label>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" value="Male"  name="gender">
+
+            <label for="female"  >Female</label>
+            <input type="radio" id="female" value="Female" name="gender">
+
+            <label for="others">Others</label>
+            <input type="radio" id="others" value="others" name="gender">
+        </fieldset>
+        <br><br>
+
+        <label for="Address">Address</label>
+        
+        <textarea name="" placeholder="Enter your address" id="" cols="30" rows="10"></textarea>
+<br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" placeholder="enter your email" required>
+<br><br>
+        <label for="pincode">Pincode:</label>
+        <input type="number" id="pincode" name="pincode">
+            
+        <h4>Payment Information</h4>
+
+        <label for="card"> Card Type :</label>
+        <select name="card_names" id="card_names" required>
+            <option value="#">--select you card type--</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Debit_card">Debit carrd</option>
+            <option value="credit_card">Credit card</option>
+        </select>
+        <br><br>
+        <label for="car_number">Card Number:</label>
+        <input type="number" id="card_number" name="card_number">
+<br><br>
+        <label for="date">Expiry Date:</label>
+        <input type="Date" id="Expiry_date" name="Expiry_date">
+        <br><br>
+        <label for="password">CVV</label>
+        <input type="Password" id="cvv" name="cvv">
+        <br><br>
+
+        <input type="submit" id="pay" name="pay" value="Pay Now">
+    </form>
+</body>
+</html>
